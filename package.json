@@ -27,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/SivakumarBalu/rest-api-bears/issues"
   },
-  "homepage": "https://github.com/SivakumarBalu/rest-api-bears#readme"
+  "homepage": "https://github.com/SivakumarBalu/rest-api-bears#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
