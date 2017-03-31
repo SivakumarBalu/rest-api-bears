@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-bears",
+  "version": "1.0.0",
+  "description": "Simple REST API based CRUD Application based on Express JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SivakumarBalu/rest-api-bears.git"
+  },
+  "keywords": [
+    "Express",
+    "JS",
+    "Node",
+    "JS",
+    "REST",
+    "API",
+    "CRUD",
+    "MongoDB",
+    "Mongoose",
+    "body-parser"
+  ],
+  "author": "Sivakumar Balu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SivakumarBalu/rest-api-bears/issues"
+  },
+  "homepage": "https://github.com/SivakumarBalu/rest-api-bears#readme"
+}
