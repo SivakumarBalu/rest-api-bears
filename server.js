@@ -1,7 +1,15 @@
 //Import the required packages
 var express = require('express');
 var bodyParser = require('body-parser');
+var mongoose = require('mongoose');
+
+//import the Bear Model
+var Bear = require('./models/bear.js');
+//Instance of express app created
 var app = express();
+
+//connect to MongoDB avaialble in mLab(DB as a service)
+mongoose.connect('mongodb://siva:celeron@ds147080.mlab.com:47080/express1')
 
 //Configure the bodyPaser to get the data from POST
 app.use(bodyParser.urlencoded({extended:true}));
